@@ -1,0 +1,136 @@
+body{
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+#container{
+    margin : 20px auto;
+    background-color: white;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+#start{
+    cursor: pointer;
+    color : lightseagreen;
+    background-color: azure;
+    width : 120px;
+    height: 64px;
+    right : 500px;
+    left: 500px;
+    top : 305px;
+    position: relative;
+    border : 5px solid rgb(187, 53, 53);
+    text-align: center;
+}
+#start:hover{
+    border: 3px solid lightseagreen;
+    color : lightseagreen;
+}
+
+#question{
+    width : 480px;
+    position: relative;
+    right : 0;
+    left: 200px;
+    top : 145px;
+    padding : 10px;
+}
+#question p{
+    width : 480px;
+    position: relative;
+    right : 0;
+    left: 88px;
+    top : 105px;
+    padding : 10px;
+}
+
+#selects{
+    width : 480px;
+    position: relative;
+    right : 0;
+    left: 88px;
+    top : 105px;
+    padding : 10px;
+}
+.select{
+    width : 480px;
+    position: relative;
+    right : 0;
+    left: 200px;
+    top : 105px;
+    padding : 10px;
+    background-color: azure;
+    
+}
+.select:hover{
+    border : 2px solid lightseagreen;
+    font-weight: bold;
+}
+
+#timer{
+    position: absolute;
+    height : 100px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+}
+#counter{
+    font-size: 3em;
+}
+#btimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left : 25px;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    margin-top : -10px;
+    margin-left : 25px;
+}
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: center;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#scoreContainer{
+    margin : 20px auto;
+    background-color: lightseagreen;
+    opacity: 0.8;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: none;
+}
+#scoreContainer p{
+    position: absolute;
+    display: block;
+    width : 59px;
+    height :59px;
+    top:130px;
+    left:325px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}

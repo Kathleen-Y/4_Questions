@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timed Code Quiz</title>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- css source -->
+    <link rel="stylesheet" href="quiz.css">
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-2">Interactive Quiz</h1>
+          <p class="lead">including multiple-choice questions and interactive challenges.</p>
+        </div>
+      </div>
+        <div class="container">    
+       <div id="start">Start</div>
+       <div id="quiz" style="display: none">
+       <div id="question"></div>
+       <div id="selects">
+            <div class="select" id="A" onclick="checkAnswer('A')"></div>
+            <div class="select" id="B" onclick="checkAnswer('B')"></div>
+            <div class="select" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+            <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+            <div id="progress"></div>
+        </div>
+            <div id="scoreContainer" style="display: none"></div>
+        </div>
+        <script src="quiz.js"></script>
+</body>
+</html>
