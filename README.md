@@ -1,4 +1,6 @@
-# 04 Web APIs: Code Quiz
+4_Questions
+======
+**4_Questions**
 
 This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. 
 
@@ -10,18 +12,11 @@ I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 ```
 
-## Acceptance Criteria
+## Languages
+* HTML
+* CSS
+* JavaScript
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
-```
+## Contact
+* Homepage: [@profile](https://github.com/Kathleen-Y)
+* Twitter: [@Ros3p3tal](https://twitter.com/Ros3p3tal)
